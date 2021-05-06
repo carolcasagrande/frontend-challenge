@@ -3,9 +3,9 @@ import React from 'react'
 import { SubHeader } from 'components'
 import { SomosClient } from 'utils'
 
-import styles from './Home.module.css'
+import styles from './Search.module.css'
 
-class Home extends React.Component {
+class Search extends React.Component {
   state = {}
 
   client = new SomosClient()
@@ -15,15 +15,17 @@ class Home extends React.Component {
       <React.Fragment>
         <SubHeader
           breadcrumb={[{ text: 'Home' }]}
+          /* breadcrumb={[{ text: 'Encontre seu artista' }]}
+          breadcrumb={[{ text: 'Artista' }]} */
           heading="Somos Front-end Challange"
         />
         <div className={styles.wrapper}>
-          <h1 className={styles.title}>Quer encontrar o seu artista favorito?</h1>
-          <button className={styles.btn}>Clique aqui</button>
+          <h1 className={styles.title}>SEARCH</h1>
+          <button className={styles.btn}>ARTISTA</button>
         </div>
       </React.Fragment>
     )
   }
 }
 
-export default Home
+export default Search

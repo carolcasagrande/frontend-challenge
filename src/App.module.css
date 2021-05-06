@@ -1,7 +1,17 @@
+/*
+font-family: 'Itim', cursive;
+font-family: 'Krona One', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
 :root {
   --color-dark-gray: #333333;
   --color-purple: #655ba2;
+  --color-violet:#682d8e;
   --color-white: #f2f4f5;
+  --color-pink:#ee2f80;
+  --color-yellow:#ffd100;
   --height-footer: 59px;
   --height-nav-bar: 63px;
   --padding: 20px;
