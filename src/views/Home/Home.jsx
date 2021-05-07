@@ -5,6 +5,8 @@ import { SomosClient } from 'utils'
 
 import styles from './Home.module.css'
 
+import background from "./../../img/music.jpg"
+
 class Home extends React.Component {
   state = {}
 
@@ -17,7 +19,7 @@ class Home extends React.Component {
           breadcrumb={[{ text: 'Home' }]}
           heading="Somos Front-end Challange"
         />
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} style={{ backgroundImage: `url(${background})` }}>
           <h1 className={styles.title}>Quer encontrar o seu artista favorito?</h1>
           <button className={styles.btn}>Clique aqui</button>
         </div>

@@ -1,13 +1,16 @@
 .wrapper {
-  max-width: 1224px;
+  max-width: 1200px;
   padding: 30px 20px;
   margin: 0 auto;
-  height: 350px;
+  height: 415px;
   font: 16px/14px 'Nunito', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;  
 }
 
 .title{
@@ -16,17 +19,18 @@
   font-size: 60px;
   color: var(--color-purple);
   margin: auto 0;
+  margin-bottom: 80px;
 }
 
 .btn{
-  margin-top: 20px;
+  margin-top: 80px;
+  margin-bottom: -10px;
   background: linear-gradient(to right,#682d8e, #ee2f80);
-  padding: 20px 30px;
+  padding: 10px 25px;
   border-radius: 50px;
   color: var(--color-white);
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   font-family: 'Nunito', sans-serif;
   border: none;
-
 }

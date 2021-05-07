@@ -1,32 +1,58 @@
-.wrapper {
+.wrapperBusca {
   max-width: 1224px;
   padding: 30px 20px;
   margin: 0 auto;
-  height: 350px;
+  height: 500px;
   font: 16px/14px 'Nunito', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(to right,#655ba2, #ee2f80);
 }
 
-.title{
+h1{
   font-family: 'Itim', cursive;
   font-weight: 700;
-  font-size: 60px;
-  color: var(--color-purple);
+  font-size: 40px;
+  color: var(--color-white);
   margin: auto 0;
 }
 
-.btn{
-  margin-top: 20px;
-  background: linear-gradient(to right,#682d8e, #ee2f80);
-  padding: 20px 30px;
-  border-radius: 50px;
+
+
+img{
+  width: 40%;
+}
+
+.busca {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+input{
+  border: none;
+  width: 400px;
+  height: 40px;
+  border-radius: 50px 0 0 50px;
+  padding: 10px 10px;
+  font-size: 15px;
+}
+
+.btnBusca{
+  width: 100px;
+  height: 40px;
+  
+  background: linear-gradient(to right, #ee2f80, #682d8e);
+  padding: 10px 10px;
+  border-radius:  0 50px 50px 0;
   color: var(--color-white);
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 500;
   font-family: 'Nunito', sans-serif;
   border: none;
-
 }
+
+
