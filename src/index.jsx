@@ -9,6 +9,7 @@ import { LoginCallback } from 'views'
 import { PrivateRoute } from 'components'
 import App from 'App'
 import Search from './views/Search'
+import Artist from './views/Artist'
 import registerServiceWorker from 'registerServiceWorker'
 
 ReactDOM.render(
@@ -16,7 +17,7 @@ ReactDOM.render(
     <Switch>
       <Route path="/login/callback" component={LoginCallback} />
       <Route path="/search" component={Search} />
-      {/* <Route path="/artist" component={App} />  */}
+      <Route path="/artist" component={Artist} />  
       <PrivateRoute path="/" component={App} />
     </Switch>
   </Router>,
